@@ -485,8 +485,9 @@ header{
     display: flex;
     overflow: hidden;
     height: 50px;
-    width:300px;
+    width:500px;
     padding-left: 30px;
+    justify-content: space-evenly;
 }
 .text-container-2{
 width: 550px;
@@ -550,4 +551,29 @@ h2{
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+.raiting-container{
+    font-family: Lexend;
+    color: #1B1C57;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+p{
+    font-family: Lexend;
+    color: #626687;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
+    padding-top: 3px;
+}
+#image-3{
+    scale:2.2;
+    margin-top: 10px;
 }
