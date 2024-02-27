@@ -577,3 +577,25 @@ p{
     scale:2.2;
     margin-top: 10px;
 }
+.main-part-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.profile-container-5{
+    display: flex;
+    flex-direction: column;
+}
+.media-container{
+    display:flex;
+    width: 500px;
+    height: 144px;
+}
+.article-3{
+    height: 144px;
+    width:400px;
+}
+.main-5{
+    display: flex;
+    justify-content: space-around;
+}
