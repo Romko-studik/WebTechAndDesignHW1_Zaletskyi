@@ -1,0 +1,471 @@
+.header-full {
+    color: #1B1C57;
+}
+a {
+    text-decoration: none;
+}
+.header-empty{
+    color: rgb(237, 255, 236);
+    text-shadow: -1px 0 #1B1C57, 0 1px #1B1C57, 1px 0 #1B1C57, 0 -1px #1B1C57;
+    display: inline;
+}
+h1{
+    font-family: Lexend;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+section{
+    width: 100%; 
+    height: 720px;
+    margin: 0;  
+    margin-bottom: 150px; 
+    margin-top: 0px;
+    overflow: hidden;
+}
+.main-1{
+    padding-top: 3%;
+    padding-left: 7%;
+    width: 50%;
+    scale:1.1;
+}   
+.main-header{
+    width: 440px;
+    height: 150px;
+    padding-top: 80px;
+    
+}
+.secondary-text{
+    font-family: Lexend;
+    color: #626687;
+    font-size: 16px;
+    font-weight: 300;
+}
+.logo-name{
+    font-family: Lexend;
+    font-weight: 700;
+    color: #1B1C57;
+    size: 16px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.header-container {
+    padding-top: 3%;
+    display: flex;
+    width: 400px;
+    height: 46px;
+    
+}
+.main-image-1{
+    width: 720px;
+    height: 720px;
+    float: right;
+    margin: 0px;
+    position: relative;
+    top: -10px;
+    left: 2%;
+}
+.nav-1{
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: 50px;
+    top: 0;
+    left: 5;
+    z-index: 1
+}
+.main-image-1 img {
+    display: block;
+    width: 100%; 
+    scale: 1.2;
+
+}
+  
+.main-image-1 img:last-child {
+    position: absolute;
+    width: 100%;
+    bottom: -4%;
+    z-index: 0; 
+}
+.section-1 {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    background: url("Images/Color\ Blur.png") left top no-repeat;
+
+}
+.footer-1 {
+    bottom: 50%;
+    left: 4.5%;
+    width: 60%;
+}
+.partners-container-1{
+    display:flex;
+    justify-content: space-evenly;
+    left: -20px;
+    width: 400px;
+}
+#par1 {
+    width: 60%;
+}
+.search-container-1{
+    width: 100%;
+    border-radius: 30px; 
+    background-color: #f0f0f0; 
+    width: 400px;
+    height: 30px;
+
+} 
+.search-bar-1{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 20px; 
+    width: 95%;
+}
+.search-button-1{
+    position: relative;
+    padding: 10px 20px;
+    left:1px;
+    top:-37.2px;
+    background-color:  #10B981;
+    color: white; 
+    border-radius: 20px; 
+    float: right;
+    border: none;
+}
+.button-text-1{
+    font-family: Lexend;
+    color: white;
+}
+
+.search-button-text-1{
+    font-family: Lexend;
+    color: white;
+}
+.video-1{
+    position: relative;
+    width: 55%;
+    height: 70%;
+    margin-left: 100px;
+    left: 100px;
+}
+.link-button{
+    padding: 10px 20px;
+    left:1px;
+    top:-37.2px;
+    color: white; 
+    border-radius: 20px; 
+    float: right;
+    border: solid;
+    border-width: 1px;
+}
+.dropdown-container{
+    padding: 10px 20px;
+    left:1px;
+    top:-37.2px;
+    color: white; 
+    border-radius: 20px; 
+    float: right;
+    border: solid;
+    border-width: 1px;
+}
+.link-button-2{
+    background-color: #D1FAE5;
+    padding: 12px 25px;
+    left:1px;
+    top:-37.2px;
+    border: none;
+    border-radius: 20px; 
+    float: right;
+    border-width: 1px;
+}
+.button-text-2{
+    font-family: Lexend;
+    color: #047857;
+}
+.select-1{
+    appearance: none;
+    border: none;
+}
+.search-image-1{
+    position: relative;
+    top: -30px;
+    left:10px;
+}
+.main-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    padding-left: 3%;
+    padding-right:3% ;
+}
+.navbar-2{
+    display:flex;
+    justify-content: space-between;  
+      padding-left: 3%;
+      padding-right:3% ;
+}
+.buttons-group-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 50px;
+}    
+.buttons-group-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 50px;
+
+}    
+.link-button-3{
+    background-color: lightgrey;
+    padding: 15px 25px;
+    left:1px;
+    border: none;
+    border-radius: 30px; 
+    float: right;
+    border-width: 1px;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+}
+.link-button-4{
+    background-color: #10B981;
+    padding: 15px 25px;
+    left:1px;
+    border: none;
+    border-radius: 30px; 
+    float: right;
+    border-width: 1px;
+    color: white;
+    font-weight: 600;
+
+}
+.header-full-2{
+    font-family: Lexend;
+    font-weight: 600;
+    color: #1B1C57;
+    font-size: 35px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.link-button-6{
+    background-color: white;
+    padding: 15px 25px;
+    left:1px;
+    border: solid;
+    border-color: lightgray;
+    border-radius: 30px; 
+    float: right;
+    border-width: 1px;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+}
+.link-button-5{
+    background-color: #D1FAE5;
+    padding: 15px 25px;
+    left:1px;
+    border: none;
+    border-radius: 30px; 
+    float: right;
+    border-width: 1px;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+}
+.link-button-text-1{
+    font-family: Lexend;
+    font-weight: 400;
+    color:#888B97
+}
+.link-button-text-2{
+    font-family: Lexend;
+    font-weight: 400;
+    color:#10B981
+}
+.small-title{
+    color: #F59E0B;
+    font-family: Lexend;
+    font-weight: 500;
+    position: absolute;
+}
+.article-1{
+    overflow: hidden;
+}
+#article-1-4{
+    width: 140px;
+}
+.profile-container-1{
+    display: flex;
+    overflow: hidden;
+    height: 45px;
+    width:300px;
+}
+.profile-container-2{
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: 0px;
+}
+h5{
+    margin: 0px;
+    font-family: Lexend;
+    font-weight: 400;
+    color: #1B1C57;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+.secondary-text-2{
+    font-family: Lexend;
+    color: #626687;
+    font-size: 13px;
+    font-weight: 300;
+    padding-left: 10px;
+    margin: 0px;
+    padding-top: 6px;
+}
+h3{
+    margin: 0px;
+    font-family: Lexend;
+    font-weight: 300;
+    color: #1B1C57;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.main-3{
+    padding-left: 3%;
+}
+.text-container-1{
+    width: 420px;
+}
+.small-title-2{
+    font-family: Lexend;
+    color: #1B1C57;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 0px;
+    margin: 0px;
+    padding-top: 3px;
+}
+.images-container-1{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.images-container-2{
+    padding-top: 15px;
+    width: 250px;
+}
+.image-text{
+    margin-left: 25px;
+    font-family: Lexend;
+    font-weight: 400;
+    color: #3C4563;
+    font-size: 14px;
+    position: relative;
+    top: -7px;
+}
+.profile-container-3{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    padding-top: 40px;
+}
+.link-button-7{
+    background-color: #10B981;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    margin-left: 40px;
+    left:1px;
+    border: none;
+    border-radius: 30px; 
+    float: right;
+    border-width: 1px;
+    color: white;
+    font-weight: 550;
+    font-size: 13px;
+    height: 45px;
+}
+#image-1{
+    scale: 1.3;
+}
+.fa{
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+header{
+    height: 40px;
+}
+.section-2{
+    padding-left: 5%;
+    width: 95%;
+}
+.section-3{
+    padding-left: 5%;
+    width: 95%;
+}
+.main-part-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.figure-1{
+    scale: 1.5;
+    width: 60%;
+}
+.images-container-3{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    left: 80px;
+    margin-left:100px;
+    top:-140px;
+}
+.image-2{
+    width: 200px;
+    height: 120px;
+    margin-top:60px;
+    scale: 0.8;
+}
+.section-4{
+
+}
+.main-4{
+    display: flex;
+    justify-content: space-between;
+}
+.header-full-3{
+    font-family: Lexend;
+    font-weight: 600;
+    color: #1B1C57;
+    font-size: 35px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.small-title-3{
+    color: #F59E0B;
+    font-family: Lexend;
+    font-weight: 500;
+    position: absolute;    
+    text-align: center;
+}
